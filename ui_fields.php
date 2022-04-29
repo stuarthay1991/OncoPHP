@@ -1,4 +1,11 @@
 <?php
+include 'config.php';
+
+header("Access-Control-Allow-Origin: *");
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $selected_cancer_type = $_POST["cancer_type"];
 $TABLE_DICT = array();
 $TABLE_DICT["LAML"]["META"]["COLUMNS"] = "LAML/Columns";
@@ -64,13 +71,14 @@ $TABLE_DICT["AML_Leucegene"]["SPLC"]["ROWNUM"] = 138754;
 $TABLE_DICT["GBM"]["SPLC"]["COLNUM"] = 185;
 $TABLE_DICT["GBM"]["SPLC"]["ROWNUM"] = 80369;
 
-$conn = pg_pconnect("dbname=oncocasen");
-if (!$conn) {
-    echo "An error occurred1.\n";
-    exit;
-}
-$metaresult = pg_query($conn, $TABLE_DICT[$selected_cancer_type]["META"]["QUERY"]);
-$i = pg_num_fields($metaresult);
+$conn = makePDO();
+
+$metaresult = $conn->query($TABLE_DICT[$selected_cancer_type]["META"]["QUERY"]);
+$output_arr = "";
+
+$conn = null;
+//$i = pg_num_fields($metaresult);
+/*
 $output_arr = array();
 for ($j = 1; $j < $i; $j++) {
 	$fieldname = pg_field_name($metaresult, $j);
@@ -112,23 +120,6 @@ for($i = 0; $i < count($rangefiles); $i++)
 	$output_arr["range"][$str_edit] = $line;
 	fclose($cur_file_open);
 }
-
-
-
-/*
-$oncosig_base_query = $TABLE_DICT[$selected_cancer_type]["SIG"]["QUERY"];
-
-$result = pg_query($conn, $oncosig_base_query);
-
-$returned_result = array();
-
-$c = 0;
-while ($row = pg_fetch_assoc($result)) 
-{
-  $returned_result[$c] = $row;
-  $c = $c + 1;
-}
-*/
 
 $sigtranslater = array();
 //$strnum = array();
@@ -229,6 +220,6 @@ $numsamples = $TABLE_DICT[$selected_cancer_type]["SPLC"]["COLNUM"];
 $output_arr["sigtranslate"] = $sigtranslater;
 $output_arr["qbox"]["columns"] = $numsamples;
 $output_arr["qbox"]["rows"] = $numrows;
-
+*/
 echo json_encode($output_arr);
 ?>
