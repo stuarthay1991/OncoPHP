@@ -1,7 +1,6 @@
 <?php
+//This script retrieves values from the database responsible for populating the UI on the "Build Query" page of the application. 
 include 'config.php';
-
-header("Access-Control-Allow-Origin: *");
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -66,22 +65,18 @@ $TABLE_DICT["GBM"]["SPLC"]["ROWNUM"] = 80369;
 $conn = makePDO();
 
 $metaresult = $conn->query($TABLE_DICT[$selected_cancer_type]["META"]["QUERY"]);
-echo $metaresult->columnCount();
-/*$output_arr = "";
-foreach($conn->query($sql) as $row) {
-      echo $row["symbol"];
+$i = $metaresult->columnCount();
 
-$conn = null;
-//$i = pg_num_fields($metaresult);
-/*
 $output_arr = array();
 for ($j = 1; $j < $i; $j++) {
-	$fieldname = pg_field_name($metaresult, $j);
+	$fieldname = $metaresult->getColumnMeta($j)['name'];
 	$fieldname = str_replace("_", " ", $fieldname);
 	$fieldname = preg_replace("/\r|\n/", "", $fieldname);
 	$output_arr["meta"][$fieldname] = "";
 }
+
 //Code for building UI
+
 $pok = scandir($TABLE_DICT[$selected_cancer_type]["META"]["COLUMNS"]);
 $file_arr = $pok;
 
@@ -215,6 +210,6 @@ $numsamples = $TABLE_DICT[$selected_cancer_type]["SPLC"]["COLNUM"];
 $output_arr["sigtranslate"] = $sigtranslater;
 $output_arr["qbox"]["columns"] = $numsamples;
 $output_arr["qbox"]["rows"] = $numrows;
-*/
-//echo json_encode($output_arr);
+
+echo json_encode($output_arr);
 ?>

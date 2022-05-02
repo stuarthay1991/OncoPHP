@@ -1,0 +1,37 @@
+Clusters	PSI-Event-Signatures	Simple-Name
+R1-V8	PSI.RBM10_downreg_vs_Others.txt	R1-V8 (Mut-RBM10)
+R2-V20	PSI.RBM10_downreg+CNV_vs_Others.txt	R2-V20 (Mut-CNV-RBM10)
+R1-V17	PSI.9p_loss_vs_Others.txt	R1-V17 (9p loss)
+R2-V13	PSI.ADGRG4_mut_vs_Others.txt	R2-V13 (Mut-ADGRG4)
+R1-V4	PSI.Chromosome_instability_vs_Others.txt	R1-V4 (Chromosome instability)
+R1-V15	PSI.Chromosome1_alterations_vs_Others.txt	R1-V15 (Chromosome1 alterations)
+R1-V14	PSI.CMTR2_mut_vs_Others.txt	R1-V14 (Mut-CMTR2)
+R1-V2	PSI.CYFIP2_downreg_vs_Others.txt	R1-V2 (CYFIP2-downreg)
+R3-V1	PSI.GRIN2B_mut_vs_Others.txt	R3-V1 (Mut-GRIN2B)
+R1-V1	PSI.KEAP1_mut_vs_Others.txt	R1-V1
+R1-V16	PSI.R1-V1_vs_Others.txt	R1-V16
+R1-V20	PSI.R1-V16_vs_Others.txt	R1-V20
+R1-V21	PSI.R1-V20_vs_Others.txt	R1-V21
+R1-V22	PSI.R1-V21_vs_Others.txt	R1-V22
+R1-V23	PSI.R1-V22_vs_Others.txt	R1-V23
+R1-V26	PSI.R1-V23_vs_Others.txt	R1-V26
+R1-V29	PSI.R1-V26_vs_Others.txt	R1-V29
+R1-V3	PSI.R1-V29_vs_Others.txt	R1-V3
+R1-V5	PSI.R1-V3_vs_Others.txt	R1-V5
+R1-V6	PSI.R1-V5_vs_Others.txt	R1-V6
+R1-V7	PSI.R1-V6_vs_Others.txt	R1-V7
+R1-V9	PSI.R1-V7_vs_Others.txt	R1-V9
+R2-V11	PSI.R1-V9_vs_Others.txt	R2-V11
+R2-V21	PSI.R2-V11_vs_Others.txt	R2-V21
+R2-V23	PSI.R2-V21_vs_Others.txt	R2-V23
+R2-V27	PSI.R2-V23_vs_Others.txt	R2-V27
+R2-V3	PSI.R2-V27_vs_Others.txt	R2-V3
+R2-V5	PSI.R2-V3_vs_Others.txt	R2-V5
+R2-V7	PSI.R2-V7_vs_Others.txt	R2-V7
+R2-V9	PSI.R2-V9_vs_Others.txt	R2-V9
+R3-V10	PSI.R3-V10_vs_Others.txt	R3-V10
+R3-V17	PSI.R3-V17_vs_Others.txt	R3-V17
+R3-V22	PSI.R3-V22_vs_Others.txt	R3-V22
+R3-V27	PSI.R3-V27_vs_Others.txt	R3-V27
+R3-V4	PSI.R3-V4_vs_Others.txt	R3-V4
+R3-V8	PSI.R3-V8_vs_Others.txt	R3-V8

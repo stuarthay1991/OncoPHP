@@ -1,0 +1,26 @@
+Clusters	PSI-Event-Signatures	Simple-Name
+R1-V21	PSI.R1-V21_vs_Others.txt	R1-V21 (Mutant-SF3B1)
+R3-V10	PSI.R3-V10_vs_Others.txt	R3-V10 (Poor Survival_Mutant-IDH1)
+R1-V14	PSI.R1-V14_vs_Others.txt	R1-V14 (Mutant-POPDC3_Del-BEND3_Splice-Enriched)
+R1-V15	PSI.R1-V15_vs_Others.txt	R1-V15 (Mutant-MPP7_Splice-Enriched)
+R1-V1	PSI.R1-V1_vs_Others.txt	R1-V1 (STAGE IIC_IR-Enriched)
+R1-V2	PSI.R1-V2_vs_Others.txt	R1-V2 (AltC-Enriched)
+R1-V24	PSI.R1-V24_vs_Others.txt	R1-V24 (Poor Survival_Keratin)
+R1-V25	PSI.R1-V25_vs_Others.txt	R1-V25 (Mutant-STAGE IIC)
+R1-V29	PSI.R1-V29_vs_Others.txt	R1-V29 (Mutant-IL13RA2)
+R1-V3	PSI.R1-V3_vs_Others.txt	R1-V3 (MITF-low_Amp-HAUS2)
+R1-V4	PSI.R1-V4_vs_Others.txt	R1-V4 (Immune)
+R1-V5	PSI.R1-V5_vs_Others.txt	R1-V5 (MITF-low_Amp-EPC2_Mutant-CDCA7+NLRP2)
+R1-V6	PSI.R1-V6_vs_Others.txt	R1-V6 (Mutant-ZBTB7B)
+R1-V8	PSI.R1-V8_vs_Others.txt	R1-V8 (Poor Survival_Splice-Enriched)
+R1-V9	PSI.R1-V9_vs_Others.txt	R1-V9 (Mutant-KLHL30_IR-Enriched)
+R2-V1	PSI.R2-V1_vs_Others.txt	R2-V1 (Del-FANCC_Mutant-OR13C9_Splice-Enriched)
+R2-V11	PSI.R2-V11_vs_Others.txt	R2-V11 (Splice-Enriched)
+R2-V2	PSI.R2-V2_vs_Others.txt	R2-V2 (IR-Enriched)
+R3-V20	PSI.R3-V20_vs_Others.txt	R3-V20 (Amp-RHBDD3_Mutant-COX7A1)
+R3-V21	PSI.R3-V21_vs_Others.txt	R3-V21 (Mutant-SCGB3A2)
+R3-V4	PSI.R3-V4_vs_Others.txt	R3-V4 (Del-ITSN1_Mutant-IGHG1_IR-Enriched)
+R3-V8	PSI.R3-V8_vs_Others.txt	R3-V8 (Immune_Splice-Enriched)
+R1-V10	PSI.R1-V10_vs_Others.txt	R1-V10
+R1-V16	PSI.R1-V16_vs_Others.txt	R1-V16
+R1-V28	PSI.R1-V28_vs_Others.txt	R1-V28

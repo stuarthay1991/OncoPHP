@@ -1,0 +1,36 @@
+Clusters	PSI-Event-Signatures	Simple-Name
+R1-V1	PSI.TCGA-HNSCC.R1-V1_vs_Others.txt	R1-V1 (FGFR1/NOTCH2/E2F1/MYC)
+R2-V14	PSI.TCGA-HNSCC.R2-V14_vs_Others.txt	R2-V14 (Good_survival_Tonsil_HPV_Mut-TRAF3)
+R3-V1	PSI.TCGA-HNSCC.R3-V1_vs_Others.txt	R3-V1 (Tonsil/HPV)
+R1-V2	PSI.TCGA-HNSCC.R1-V2_vs_Others.txt	R1-V2 (LAMB2/PHF14/TKT)
+R2-Others	PSI.TCGA-HNSCC.R2-Others_vs_Others.txt	R2-Others (PTPRD)
+R2-V1	PSI.TCGA-HNSCC.R2-V1_vs_Others.txt	R2-V1 (IR Enriched_Tonsil)
+R2-V16	PSI.TCGA-HNSCC.R2-V16_vs_Others.txt	R2-V16 (HPV_Mut-NSD1)
+R2-V2	PSI.TCGA-HNSCC.R2-V2_vs_Others.txt	R2-V2 (Poor survival_Tongue)
+R2-V20	PSI.TCGA-HNSCC.R2-V20_vs_Others.txt	R2-V20 (Mut-KCNAB1)
+R2-V22	PSI.TCGA-HNSCC.R2-V22_vs_Others.txt	R2-V22 (Mut-ELOVL4)
+R2-V23	PSI.TCGA-HNSCC.R2-V23_vs_Others.txt	R2-V23 (Grade-1)
+R2-V24	PSI.TCGA-HNSCC.R2-V24_vs_Others.txt	R2-V24 (Mut-FGFR1)
+R2-V26	PSI.TCGA-HNSCC.R2-V26_vs_Others.txt	R2-V26 (Mut-MDN1)
+R2-V28	PSI.TCGA-HNSCC.R2-V28_vs_Others.txt	R2-V28 (Mut-SLC24A4)
+R2-V29	PSI.TCGA-HNSCC.R2-V29_vs_Others.txt	R2-V29 (Mut-CUL3)
+R2-V3	PSI.TCGA-HNSCC.R2-V3_vs_Others.txt	R2-V3 (IR Enriched_Mut-ANGPTL5)
+R2-V5	PSI.TCGA-HNSCC.R2-V5_vs_Others.txt	R2-V5 (Mut-NSD1)
+R2-V8	PSI.TCGA-HNSCC.R2-V8_vs_Others.txt	R2-V8 (Tongue)
+R3-V10	PSI.TCGA-HNSCC.R3-V10_vs_Others.txt	R3-V10 (Good survival)
+R3-V16	PSI.TCGA-HNSCC.R3-V16_vs_Others.txt	R3-V16 (Mut-TMEM5)
+R3-V22	PSI.TCGA-HNSCC.R3-V22_vs_Others.txt	R3-V22 (Good survival_Mut-CBFA2T2)
+R3-V23	PSI.TCGA-HNSCC.R3-V23_vs_Others.txt	R3-V23 (Good survival)
+R3-V28	PSI.TCGA-HNSCC.R3-V28_vs_Others.txt	R3-V28 (Good survival)
+R3-V7	PSI.TCGA-HNSCC.R3-V7_vs_Others.txt	R3-V7 (Good survival_Mut-PCDHA9)
+R3-V8	PSI.TCGA-HNSCC.R3-V8_vs_Others.txt	R3-V8
+R2-V0		R2-V0
+R2-V13	PSI.TCGA-HNSCC.R2-V13_vs_Others.txt	R2-V13
+R2-V17	PSI.TCGA-HNSCC.R2-V17_vs_Others.txt	R2-V17
+R2-V25	PSI.TCGA-HNSCC.R2-V25_vs_Others.txt	R2-V25
+R3-V0	PSI.TCGA-HNSCC.R3-V0_vs_Others.txt	R3-V0
+R3-V13	PSI.TCGA-HNSCC.R3-V13_vs_Others.txt	R3-V13
+R3-V15	PSI.TCGA-HNSCC.R3-V15_vs_Others.txt	R3-V15
+R3-V24	PSI.TCGA-HNSCC.R3-V24_vs_Others.txt	R3-V24
+R3-V25	PSI.TCGA-HNSCC.R3-V25_vs_Others.txt	R3-V25
+R3-V6	PSI.TCGA-HNSCC.R3-V6_vs_Others.txt	R3-V6

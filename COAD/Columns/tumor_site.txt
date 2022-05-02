@@ -1,0 +1,1 @@
+tumor site: 3 - left colon#NA#tumor site: 4 - rectum#tumor site: 1 - right colon#tumor site: 2 - transverse colon

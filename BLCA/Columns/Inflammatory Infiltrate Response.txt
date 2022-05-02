@@ -1,0 +1,1 @@
+Lymphocytes(clusters)#"Lymphocytes,neutrophils"#"Lymphocytes,eosinophils"#"Lymphocytes,plasmacells,eosinopils"#"Absent(separateclustersofLymphocytes,notinfiltratingtumor)"#"Lymphocytes,neutrophils,plasmacells"#"Lymphocytes,rareeosinophils"#Lymphocytes#"Lymphocytes,plasmacells"#"Lymphocytes,minimal,rareeosinophils"#"Lymphocytes,plasmacells,eosinophils"#"Lymphocytes,minimal"#Absent

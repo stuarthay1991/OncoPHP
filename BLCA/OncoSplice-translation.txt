@@ -1,0 +1,35 @@
+Clusters	PSI-Event-Signatures	Simple-Name
+R3-V4	PSI.RBM10_mut+SOX4_amp_vs_Others.txt	R3-V4 (Mut-RBM10_Amp-SOX4)
+R2-V7	PSI.SOX4_amp+TP53_mut_vs_Others.txt	R2-V7 (Amp-SOX4_Mut-TP53)
+R2-V10	PSI.RBM10_mut_vs_Others.txt	R2-V10 (Poor Survival_Mut-RBM10_miRNA 4)
+R1-V1	PSI.TP53_mut_vs_Others.txt	R1-V1 (Poor Survival_Mut-TP53_Basal_squamous mRNA)
+R1-V2	PSI.FGFR3_mut_vs_Others.txt	R1-V2 (Mut-FGFR3_Luminal_papillary mRNA)
+R3-V6	PSI.R3-V6_vs_Others.txt	R3-V6 (Mut-SF1)
+R2-V19	PSI.KRAS_mut_vs_Others.txt	R2-V19 (Mut-KRAS)
+R2-V23	PSI.CDKN2A_del+FGFR3_mut_vs_Others.txt	R2-V23 (Del-CDKN2A_Mut-FGFR3_lncRNA 3)
+R2-V13	PSI.R2-V13_vs_Others.txt	R2-V13 (Poor Survival_Neuronal mRNA)
+R2-V27	PSI.R2-V27_vs_Others.txt	R2-V27 (Luminal mRNA)
+R2-V28	PSI.Noninvasive_BLCA_history_vs_Others.txt	R2-V28 (Noninvasive_BLCA_history)
+R2-V24	PSI.PDE4D_del_vs_Others.txt	R2-V24 (Del-PDE4D)
+R2-V11	PSI.R2-V11_vs_Others.txt	R2-V11 (Luminal_papillary mRNA)
+R3-V26	PSI.R3-V26_vs_Others.txt	R3-V26 (tissue source CF)
+R2-V26	PSI.Asian_vs_Others.txt	R2-V26 (Asian)
+R2-V4	PSI.R2-V4_vs_Others.txt	R2-V4
+R2-V20	PSI.R2-V20_vs_Others.txt	R2-V20
+R2-V15	PSI.R2-V15_vs_Others.txt	R2-V15
+R2-V2	PSI.R2-V2_vs_Others.txt	R2-V2
+R2-V25	PSI.R2-V25_vs_Others.txt	R2-V25
+R2-V17	PSI.R2-V17_vs_Others.txt	R2-V17
+R2-V18	PSI.R2-V18_vs_Others.txt	R2-V18
+R2-V3	PSI.R2-V3_vs_Others.txt	R2-V3
+R2-V6	PSI.R2-V6_vs_Others.txt	R2-V6
+R2-V1	PSI.R2-V1_vs_Others.txt	R2-V1
+R2-V9	PSI.R2-V9_vs_Others.txt	R2-V9
+R2-V21	PSI.R2-V21_vs_Others.txt	R2-V21
+R2-V22	PSI.R2-V22_vs_Others.txt	R2-V22
+R2-V16	PSI.R2-V16_vs_Others.txt	R2-V16
+R3-V5	PSI.R3-V5_vs_Others.txt	R3-V5
+R3-V7	PSI.R3-V7_vs_Others.txt	R3-V7
+R3-V9	PSI.R3-V9_vs_Others.txt	R3-V9
+R3-V21	PSI.R3-V21_vs_Others.txt	R3-V21
+R3-V19	PSI.R3-V19_vs_Others.txt	R3-V19

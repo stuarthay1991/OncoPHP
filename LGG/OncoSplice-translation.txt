@@ -1,0 +1,29 @@
+Clusters	PSI-Event-Signatures	Simple-Name
+R1-V1	PSI.R1-V1_vs_Others.txt	R1-V1 (Poor-Survival_EGFR_R2-RNACluster_IR Enriched)
+R2-V28	PSI.R2-V28_vs_Others.txt	R2-V28 (Poor-Survival_IDHwt-IDH/1p19q)
+R3-V1	PSI.R3-V1_vs_Others.txt	R3-V1 (IR Enriched_Mut-TP53)
+R1-V2	PSI.R1-V2_vs_Others.txt	R1-V2 (R4-RNASeqCluster)
+R2-V1	PSI.R2-V1_vs_Others.txt	R2-V1 (Mut-CIC)
+R2-V11	PSI.R2-V11_vs_Others.txt	R2-V11 (mi3-miRNACluster)
+R2-V12	PSI.R2-V12_vs_Others.txt	R2-V12 (Mut-ARID1B)
+R2-V15	PSI.R2-V15_vs_Others.txt	R2-V15 (Mut-PTEN_M4-MethylationCluster)
+R2-V16	PSI.R2-V16_vs_Others.txt	R2-V16 (Mut-CIC_R3-RNASeqCluster)
+R2-V18	PSI.R2-V18_vs_Others.txt	R2-V18 (IR Enriched_Poor-Survival)
+R2-V19	PSI.R2-V19_vs_Others.txt	R2-V19 (Mut-FUBP1)
+R2-V2	PSI.R2-V2_vs_Others.txt	R2-V2 (Mut-SETD2)
+R2-V22	PSI.R2-V22_vs_Others.txt	R2-V22 (IR Enriched)
+R2-V24	PSI.R2-V24_vs_Others.txt	R2-V24 (mi3-miRNACluster)
+R2-V3	PSI.R2-V3_vs_Others.txt	R2-V3 (Poor-Survival_EGFR_M4-MethylationCluster)
+R2-V4	PSI.R2-V4_vs_Others.txt	R2-V4 (Poor-Survival_R3-RNACluster)
+R2-V6	PSI.R2-V6_vs_Others.txt	R2-V6 (M1-MethylationCluster)
+R2-V7	PSI.R2-V7_vs_Others.txt	R2-V7 (C3-CNCluster)
+R2-V8	PSI.R2-V8_vs_Others.txt	R2-V8 (R1-RNACluster)
+R3-V2	PSI.R3-V2_vs_Others.txt	R3-V2 (Good-Survival_Mut-FUBP1_R3-RNACluster)
+R2-V13	PSI.R2-V13_vs_Others.txt	R2-V13
+R2-V17	PSI.R2-V17_vs_Others.txt	R2-V17
+R2-V20	PSI.R2-V20_vs_Others.txt	R2-V20
+R2-V21	PSI.R2-V21_vs_Others.txt	R2-V21
+R2-V26	PSI.R2-V26_vs_Others.txt	R2-V26
+R2-V27	PSI.R2-V27_vs_Others.txt	R2-V27
+R2-V29	PSI.R2-V29_vs_Others.txt	R2-V29
+R2-V9	PSI.R2-V9_vs_Others.txt	R2-V9

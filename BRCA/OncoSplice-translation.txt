@@ -1,0 +1,31 @@
+Clusters	PSI-Event-Signatures	Simple-Name
+R1-V24	PSI.ER_Negative_R1-V24_vs_Others.txt	R1-V24 (ER Negative Splice Enriched)
+R1-V14	PSI.HER2_Positive_R1-V14_vs_Others.txt	R1-V14 (HER2 Positive_Poor survival)
+R1-V5	PSI.Infiltrating_lobular_carcinoma_R1-V5_vs_Others.txt	R1-V5 (Infiltrating lobular carcinoma_Splice Enriched)
+R1-V17	PSI.LuminalA_R1-V17_vs_Others.txt	R1-V17 (Luminal-A_Splice Enriched)
+R1-V29	PSI.PR_Positive_R1-V29_vs_Others.txt	R1-V29 (PR Positive)
+R2-V24	PSI.SF3B1_Mut_R2-V24_vs_Others.txt	R2-V24 (Mut-SF3B1:K700E)
+R2-V1	PSI.TP53_Mut_R2-V1_vs_Others.txt	R2-V1 (Mut-TP53)
+R1-V1	PSI.R1-V1_vs_Others.txt	R1-V1 (Splice Enriched)
+R1-V2	PSI.R1-V2_vs_Others.txt	R1-V2 (IR Enriched)
+R1-V4	PSI.R1-V4_vs_Others.txt	R1-V4 (Splice Enriched)
+R1-V6	PSI.R1-V6_vs_Others.txt	R1-V6 (Poor survival_Splice Enriched)
+R1-V8	PSI.R1-V8_vs_Others.txt	R1-V8 (Splice Enriched)
+R1-V12	PSI.R1-V12_vs_Others.txt	R1-V12 (Splice Enriched)
+R1-V13	PSI.R1-V13_vs_Others.txt	R1-V13 (IR Enriched)
+R1-V16	PSI.R1-V16_vs_Others.txt	R1-V16 (Splice Enriched)
+R1-V18	PSI.R1-V18_vs_Others.txt	R1-V18 (Splice Enriched)
+R1-V19	PSI.R1-V19_vs_Others.txt	R1-V19 (Splice Enriched)
+R1-V20	PSI.R1-V20_vs_Others.txt	R1-V20 (Splice Enriched)
+R1-V21	PSI.R1-V21_vs_Others.txt	R1-V21 (Poor survival)
+R1-V23	PSI.R1-V23_vs_Others.txt	R1-V23 (IR Enriched)
+Kmeans	PSI.R3_Kmeans_vs_Others.txt	R3_Kmeans (Splice Enriched)
+R1-V3	PSI.R1-V3_vs_Others.txt	R1-V3
+R1-V7	PSI.R1-V7_vs_Others.txt	R1-V7
+R1-V11	PSI.R1-V11_vs_Others.txt	R1-V11
+R1-V15	PSI.R1-V15_vs_Others.txt	R1-V15
+R1-V22	PSI.R1-V22_vs_Others.txt	R1-V22
+R1-V25	PSI.R1-V25_vs_Others.txt	R1-V25
+R1-V26	PSI.R1-V26_vs_Others.txt	R1-V26
+R1-V27	PSI.R1-V27_vs_Others.txt	R1-V27
+R2-V12	PSI.R2-V12_vs_Others.txt	R2-V12

@@ -1,0 +1,57 @@
+Clusters	PSI-Event-Signatures	Simple-Name
+R3-V28	PSI.R3-V28_vs_Others.txt	R3-V28 (Mutant-RBFOX2)
+Broad R2-V1	PSI.Broad R2-V1_vs_Others.txt	Broad R2-V1 (Mutant-TP53)
+Broad R3-V3	PSI.Broad R3-V3_vs_Others.txt	Broad R3-V3 (Mutant-GATA3)
+R1-V5	PSI.R1-V5_vs_Others.txt	R1-V5 (Mutant-TP53)
+Broad R3-V6	PSI.Broad R3-V6_vs_Others.txt	Broad R3-V6 (Colon Mucinous Adenocarcinoma)
+Broad R1-V1	PSI.Broad R1-V1_vs_Others.txt	Broad R1-V1 (Poor survival)
+Broad R2-V2	PSI.Broad R2-V2_vs_Others.txt	Broad R2-V2 (Stage II)
+Broad R3-V1	PSI.Broad R3-V1_vs_Others.txt	Broad R3-V1 (Poor survival_Mutant-HEMK1+RNF20)
+Broad R3-V11	PSI.Broad R3-V11_vs_Others.txt	Broad R3-V11 (Mutant-ACR)
+Broad R3-V15	PSI.Broad R3-V15_vs_Others.txt	Broad R3-V15 (Stage II)
+Broad R3-V19	PSI.Broad R3-V19_vs_Others.txt	Broad R3-V19 (Stage IIB_Mutant-ROPN1)
+Broad R3-V2	PSI.Broad R3-V2_vs_Others.txt	Broad R3-V2 (Mutant-AOC2)
+Broad R3-V24	PSI.Broad R3-V24_vs_Others.txt	Broad R3-V24 (Mutant-RARA)
+R1-V10	PSI.R1-V10_vs_Others.txt	R1-V10 (Mutant-TUBGCP6)
+R1-V12	PSI.R1-V12_vs_Others.txt	R1-V12 (Mutant-LMNTD2)
+Broad R3-V27	PSI.Broad R3-V27_vs_Others.txt	Broad R3-V27 (Mutant-ITPR2_MSI-H)
+R1-V3	PSI.R1-V3_vs_Others.txt	R1-V3 (Poor survival_Stage II)
+R1-V4	PSI.R1-V4_vs_Others.txt	R1-V4 (Mutant-OR51E2)
+R1-V6	PSI.R1-V6_vs_Others.txt	R1-V6 (Poor Prognosis_Mutant-FMO5)
+R1-V7	PSI.R1-V7_vs_Others.txt	R1-V7 (Mutant-WT1)
+R1-V9	PSI.R1-V9_vs_Others.txt	R1-V9 (Mutant-SCN7A)
+R2-V13	PSI.R2-V13_vs_Others.txt	R2-V13 (Good survival_Mutant-BRAF_MLH1 silenced)
+R2-V18	PSI.R2-V18_vs_Others.txt	R2-V18 (Mutant-SMPD4)
+R2-V2	PSI.R2-V2_vs_Others.txt	R2-V2 (Mutant-DCLK1)
+R2-V24	PSI.R2-V24_vs_Others.txt	R2-V24 (Good survival_Mutant-EGR3_MSI-H)
+R2-V28	PSI.R2-V28_vs_Others.txt	R2-V28 (Mutant-LMNTD2)
+R2-V4	PSI.R2-V4_vs_Others.txt	R2-V4 (Mutant-CCDC64B)
+R2-V7	PSI.R2-V7_vs_Others.txt	R2-V7 (Mutant-TNFRSF19)
+R3-V24	PSI.R3-V24_vs_Others.txt	R3-V24 (Mutant-TSPAN8)
+R3-V27	PSI.R3-V27_vs_Others.txt	R3-V27 (Mutant-IFNA17)
+R3-V4	PSI.R3-V4_vs_Others.txt	R3-V4 (Mutant-BIVM-ERCC5)
+Broad R1-V2	PSI.Broad R1-V2_vs_Others.txt	Broad R1-V2
+Broad R3-V10	PSI.Broad R3-V10_vs_Others.txt	Broad R3-V10
+Broad R3-V12	PSI.Broad R3-V12_vs_Others.txt	Broad R3-V12
+Broad R3-V14	PSI.Broad R3-V14_vs_Others.txt	Broad R3-V14
+Broad R3-V16	PSI.Broad R3-V16_vs_Others.txt	Broad R3-V16
+Broad R3-V26	PSI.Broad R3-V26_vs_Others.txt	Broad R3-V26
+Broad R3-V4	PSI.Broad R3-V4_vs_Others.txt	Broad R3-V4
+Broad R3-V5	PSI.Broad R3-V5_vs_Others.txt	Broad R3-V5
+Broad R3-V7	PSI.Broad R3-V7_vs_Others.txt	Broad R3-V7
+Broad R3-V9	PSI.Broad R3-V9_vs_Others.txt	Broad R3-V9
+R1-V1	PSI.R1-V1_vs_Others.txt	R1-V1
+R1-V2	PSI.R1-V2_vs_Others.txt	R1-V2
+R2-V1	PSI.R2-V1_vs_Others.txt	R2-V1
+R2-V10	PSI.R2-V10_vs_Others.txt	R2-V10
+R2-V16	PSI.R2-V16_vs_Others.txt	R2-V16
+R2-V29	PSI.R2-V29_vs_Others.txt	R2-V29
+R2-V6	PSI.R2-V6_vs_Others.txt	R2-V6
+R2-V9	PSI.R2-V9_vs_Others.txt	R2-V9
+R3-V1	PSI.R3-V1_vs_Others.txt	R3-V1
+R3-V12	PSI.R3-V12_vs_Others.txt	R3-V12
+R3-V14	PSI.R3-V14_vs_Others.txt	R3-V14
+R3-V18	PSI.R3-V18_vs_Others.txt	R3-V18
+R3-V19	PSI.R3-V19_vs_Others.txt	R3-V19
+R3-V22	PSI.R3-V22_vs_Others.txt	R3-V22
+R3-V23	PSI.R3-V23_vs_Others.txt	R3-V23
