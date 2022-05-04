@@ -3,11 +3,9 @@
 //ini_set('display_startup_errors', 1);
 //error_reporting(E_ALL);
 //Connect to postgres db
-$conn = pg_pconnect("dbname=oncocasen");
-if (!$conn) {
-    echo "An error occurred1.\n";
-    exit;
-}
+include 'config.php';
+$conn = makePDO();
+
 $cancertype = $_POST["CANCER"];
 $postuid = $_POST["UID"];
 
@@ -55,7 +53,7 @@ else if($cancertype != "LAML")
 //USF2:ENSG00000105698:E3.4-E3.6|ENSG00000105698:E3.4-E3.11
 $TABLE_DICT["BLCA"]["META"]["SPC"] = "uid";
 $splicequery = "SELECT *" . $TABLE_DICT[$cancertype]["SPLC"]["QUERY"];
-$spliceresult = pg_query($conn, $splicequery);
+$spliceresult = $conn->query($splicequery);
 if (!$spliceresult) {
     echo "An error occurred1.\n";
     exit;
@@ -64,7 +62,7 @@ if (!$spliceresult) {
 $m_arr_count = 0;
 $m_arr = array();
 
-while ($mrow = pg_fetch_assoc($spliceresult)) {
+while ($mrow = $spliceresult->fetch(PDO::FETCH_ASSOC)) {
     $m_arr[$m_arr_count] = $mrow;
     $m_arr_count = $m_arr_count + 1;
 }

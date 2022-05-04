@@ -8,9 +8,9 @@ include 'postdata.php';
 //Connect to postgres db
 //include 'queryhistoryaccess.php'; 
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1);
+//error_reporting(E_ALL);
 $conn = makePDO();
 $cancertype = $_POST["CANCER"];
 $compcancertype = $_POST["COMPCANCER"];
@@ -376,7 +376,7 @@ while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
   $ic = $ic + 1;
 }
 
-$ruts = shell_exec("python HC_only_circa_v1.py --i resultboxfile.txt --row_method ward --column_method ward --row_metric cosine --column_metric cosine --normalize True 2>&1 &");
+$ruts = shell_exec("python/mamp_python/bin/python HC_only_circa_v1.py --i resultboxfile.txt --row_method ward --column_method ward --row_metric cosine --column_metric cosine --normalize True 2>&1 &");
 $file = fopen("resultboxfile-clustered.txt", "r");
 $line = fgets($file);
 $line = str_replace("\n","",$line);

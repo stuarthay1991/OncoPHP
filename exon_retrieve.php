@@ -1,17 +1,14 @@
 <?php
 
-$conn = pg_pconnect("dbname=oncocasen");
-if (!$conn) {
-    echo "An error occurred0.\n";
-    exit;
-}
+include 'config.php';
+$conn = makePDO();
 
 $postExRetrieve = $_POST["GENE"];
 
 date_default_timezone_set('UTC');
 
 $exonquery = "SELECT * FROM HS_EXON WHERE gene = '" . $postExRetrieve . "';";
-$exonresult = pg_query($conn, $exonquery);
+$exonresult = $conn->query($exonquery);
 if (!$exonresult) {
     echo "An error occurred1.\n";
     exit;
@@ -25,7 +22,7 @@ $blob_arr = array();
 $m_arr_count = 0;
 $m_arr = array();
 
-while ($mrow = pg_fetch_assoc($exonresult)) {
+while ($mrow = $exonresult->fetch(PDO::FETCH_ASSOC)) {
     $m_arr[$m_arr_count]["exon_name"] = $mrow["exon_id"];
     $m_arr[$m_arr_count]["start"] = $mrow["exon_region_start_s_"];
     $m_arr[$m_arr_count]["stop"] = $mrow["exon_region_stop_s_"];
@@ -37,7 +34,7 @@ while ($mrow = pg_fetch_assoc($exonresult)) {
 }
 
 $transcriptquery = "SELECT * FROM HS_TRANSCRIPT_ANNOT WHERE ensembl_gene_id = '" . $postExRetrieve . "';";
-$transresult = pg_query($conn, $transcriptquery);
+$transresult = $conn->query($transcriptquery);
 if (!$transresult) {
     echo "An error occurred2.\n";
     exit;
@@ -48,7 +45,7 @@ $t_arr = array();
 
 
 
-while ($mrow = pg_fetch_assoc($transresult)) {
+while ($mrow = $transresult->fetch(PDO::FETCH_ASSOC)) {
     //$t_arr[$t_arr_count]["transcript"] = $mrow["ensembl_transcript_id"];
     //$t_arr[$t_arr_count]["ensembl_exon_id"] = $mrow["ensembl_exon_id"];
     //$t_arr[$t_arr_count]["start"] = $mrow["exon_start__bp_"];
@@ -64,7 +61,7 @@ while ($mrow = pg_fetch_assoc($transresult)) {
 }
 
 $juncquery = "SELECT * FROM HS_JUNC WHERE gene = '" . $postExRetrieve . "';";
-$juncresult = pg_query($conn, $juncquery);
+$juncresult = $conn->query($juncquery);
 if (!$juncresult) {
     echo "An error occurred3.\n";
     exit;
@@ -73,7 +70,7 @@ if (!$juncresult) {
 $j_arr_count = 0;
 $j_arr = array();
 
-while ($mrow = pg_fetch_assoc($juncresult)) {
+while ($mrow = $juncresult->fetch(PDO::FETCH_ASSOC)) {
     $j_arr[$j_arr_count]["junction"] = $mrow["exon_id"];
     $j_arr[$j_arr_count]["ensembl_exon_id"] = $mrow["ens_exon_ids"];
     $j_arr[$j_arr_count]["start"] = $mrow["exon_region_start_s_"];

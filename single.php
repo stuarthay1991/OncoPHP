@@ -3,13 +3,10 @@
 //ini_set('display_startup_errors', 1);
 //error_reporting(E_ALL);
 //Connect to postgres db
-$conn = pg_pconnect("dbname=oncocasen");
-if (!$conn) {
-    echo "An error occurred1.\n";
-    exit;
-}
+include 'config.php';
 $cancertype = $_POST["CANCER"];
 
+$conn = makePDO();
 $TABLE_DICT = array();
 
 $TABLE_DICT["LAML"]["META"]["COLUMNS"] = "LAML/Columns";
@@ -54,7 +51,7 @@ else if($cancertype != "LAML")
 
 $TABLE_DICT["BLCA"]["META"]["SPC"] = "uid";
 
-$metaresult = pg_query($conn, $TABLE_DICT[$cancertype]["META"]["QUERY"]);
+$metaresult = $conn->query($TABLE_DICT[$cancertype]["META"]["QUERY"]);
 if (!$metaresult) {
     echo "An error occurred1.\n";
     exit;
@@ -100,7 +97,7 @@ $returned_result = array();
 $i_set = 0;
 if($range_on == false)
 {
-  while ($row = pg_fetch_assoc($metaresult)) {
+  while ($row = $metaresult->fetch(PDO::FETCH_ASSOC)) {
     $str_edit = str_replace(".", "_", $row[$TABLE_DICT[$cancertype]["META"]["SPC"]]);
     $str_edit = str_replace("-", "_", $str_edit);
     $str_edit = strtolower($str_edit);
@@ -123,7 +120,7 @@ if($range_on == false)
 }
 else
 {
-    while ($row = pg_fetch_assoc($metaresult)) {
+    while ($row = $metaresult->fetch(PDO::FETCH_ASSOC)) {
       $str_edit = str_replace(".", "_", $row[$TABLE_DICT[$cancertype]["META"]["SPC"]]);
       $str_edit = str_replace("-", "_", $str_edit);
       $str_edit = strtolower($str_edit);
