@@ -3,11 +3,8 @@
 //ini_set('display_startup_errors', 1);
 //error_reporting(E_ALL);
 //Connect to postgres db
-$conn = pg_pconnect("dbname=oncocasen");
-if (!$conn) {
-    echo "An error occurred1.\n";
-    exit;
-}
+include 'config.php';
+$conn = makePDO();
 $cancertype = $_POST["CANCER"];
 
 $TABLE_DICT = array();
@@ -91,13 +88,13 @@ foreach ($_POST as $key => $value) {
 	}
 }
 
-$singleresult = pg_query($conn, $meta_coord_query);
+$singleresult = $conn->query($meta_coord_query);
 if (!$singleresult) {
     echo "An error occurred2.\n";
     exit;
 }
 
-$singlenumrows = pg_num_rows($singleresult);
+$singlenumrows = $singleresult->rowCount();
 
 $tumrows = array();
 
